@@ -5,12 +5,15 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react'
+import { StaticQuery, graphql } from 'gatsby'
+import SEO from './seo'
+import styled from 'styled-components'
 
-import Header from "./header"
-import "./layout.css"
+const Header = styled.h1`
+  display: "flex";
+  justify-content: center;
+`
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,29 +28,25 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
+        <SEO title="What I learned after my father died"
+          keywords={[
+            `men`,
+            `new`,
+            `learning`, `father`, `fatherhood`, `stepdad`]} />
+        <div style={{
+          width: 960,
+          display: 'flex',
+          flexDirection: 'column',
+          marginRight: 'auto',
+          marginLeft: 'auto'
+        }}>
+          <Header>What I learned after my Father died</Header>
+          {children}
+          <footer>Built by the Cosmic Fisherman ©{new Date().getFullYear()}</footer>
         </div>
       </>
     )}
   />
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-}
 
 export default Layout

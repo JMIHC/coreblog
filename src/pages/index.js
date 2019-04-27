@@ -1,20 +1,37 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react'
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from '../components/layout'
+import styled from 'styled-components'
+
+const Summary = styled.div`
+  display: "flex";
+  justify-content: center;
+  line-height: 1.5rem;
+`
+
+const List = styled.div`
+  display: flex;
+  justify-content: center;
+`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Summary>
+      <p>
+        When I think of my Dad I remember a sensitivity of spirit, a thinking mind and a strong wit. He passed away Feb. 27, 2006
+        when I was twenty-four. Now older and having acquired time and distance from his passing, I've begun this work.
+      </p>
+      <p>
+        This is where we'll find what it means to be a man in the universal masculine. I think this end of the gender spectrum has
+        largely neglected its purpose, forgotten its place in the world and perverted its noble reality. There are so many
+        questions to think on. I am building this space for you and I go deep and explore the terrain of what makes a man.
+      </p>
+      <p>
+        For now there'll be weekly blog here while I build the infrastructure to make this a platform for us. Feel free to contact
+        me in the form below.
+      </p>
+    </Summary>
+    <List />
   </Layout>
 )
 
