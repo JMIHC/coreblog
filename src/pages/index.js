@@ -2,16 +2,12 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import styled from 'styled-components'
+import Form from '../components/form'
 
 const Summary = styled.div`
   display: "flex";
   justify-content: center;
   line-height: 1.5rem;
-`
-
-const List = styled.div`
-  display: flex;
-  justify-content: center;
 `
 
 const IndexPage = () => (
@@ -31,7 +27,7 @@ const IndexPage = () => (
         me in the form below.
       </p>
     </Summary>
-    <List />
+    <Form />
   </Layout>
 )
 

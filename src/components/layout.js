@@ -28,18 +28,19 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <SEO title="What I learned after my father died"
-          keywords={[
-            `men`,
-            `new`,
-            `learning`, `father`, `fatherhood`, `stepdad`]} />
-        <div style={{
-          width: 960,
-          display: 'flex',
-          flexDirection: 'column',
-          marginRight: 'auto',
-          marginLeft: 'auto'
-        }}>
+        <SEO
+          title="What I learned after my father died"
+          keywords={[`men`, `new`, `learning`, `father`, `fatherhood`, `stepdad`]}
+        />
+        <div
+          style={{
+            width: 320,
+            display: 'flex',
+            flexDirection: 'column',
+            marginRight: 'auto',
+            marginLeft: 'auto',
+          }}
+        >
           <Header>What I learned after my Father died</Header>
           {children}
           <footer>Built by the Cosmic Fisherman ©{new Date().getFullYear()}</footer>
