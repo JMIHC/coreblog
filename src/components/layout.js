@@ -11,8 +11,9 @@ import SEO from './seo'
 import styled from 'styled-components'
 
 const Header = styled.h1`
-  display: "flex";
+  display: flex;
   justify-content: center;
+  margin: 5px;
 `
 
 const Layout = ({ children }) => (

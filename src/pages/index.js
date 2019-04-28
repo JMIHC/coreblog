@@ -8,6 +8,7 @@ const Summary = styled.div`
   display: "flex";
   justify-content: center;
   line-height: 1.5rem;
+  padding: 5px;
 `
 
 const IndexPage = () => (
