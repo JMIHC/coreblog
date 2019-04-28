@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Form extends Component {
   render () {
     return (
-      <form name="contact" netlify>
+      <form name="contact" netlify netlify-honeypot="bot-field">
         <p>
           <label>
             Name <input type="text" name="name" />
