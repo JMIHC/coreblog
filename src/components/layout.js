@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
             marginLeft: 'auto',
           }}
         >
-          <Header>What I learned after my Father died</Header>
+          <Header>What I learned after my father died</Header>
           {children}
           <footer>Built by the Cosmic Fisherman ©{new Date().getFullYear()}</footer>
         </div>
