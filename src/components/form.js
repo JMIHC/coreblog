@@ -22,7 +22,7 @@ export default class Form extends Component {
         <p>
           <button type="submit">Send</button>
         </p>
-        <p>*Your email address will not be sold or used in any form outside of this website.</p>
+        <p>*Your email address will not be sold or shared.</p>
       </form>
     )
   }
