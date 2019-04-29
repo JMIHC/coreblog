@@ -24,8 +24,8 @@ const IndexPage = () => (
         questions to think on. I am building this space for you and I to go deep and explore the terrain of what makes a man.
       </p>
       <p>
-        For now there'll be weekly blog here while I build the infrastructure to make this a platform for us. Feel free to contact
-        me in the form below.
+        For now there'll be weekly blog posts here while I build the infrastructure to make this a platform for us. Feel free to
+        contact me in the form below.
       </p>
     </Summary>
     <Form />
