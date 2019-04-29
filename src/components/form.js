@@ -1,73 +1,35 @@
 import React, { Component } from 'react'
-import axios from 'axios'
-
-function encode (data) {
-  return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-    .join('&')
-}
 
 export default class Form extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {}
-  }
-
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value })
-  }
-
-  handleSubmit = e => {
-    e.preventDefault()
-    const form = e.target
-    axios('/', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({
-        'form-name': form.getAttribute('name'),
-        ...this.state,
-      }),
-    })
-    //   .then(() => navigateTo(form.getAttribute('action')))
-    //   .catch(error => alert(error))
-  }
-
   render () {
     return (
-      <form
-        name="contact"
-        method="post"
-        //   action="/thanks/"
-        data-netlify="true"
-        data-netlify-honeypot="bot-field"
-        onSubmit={this.handleSubmit}
-      >
+      <form name="contact" method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
           <label>
-            Don’t fill this out: <input name="bot-field" onChange={this.handleChange} />
+            Don’t fill this out: <input name="bot-field" />
           </label>
         </p>
         <p>
           <label>
             Your name:
             <br />
-            <input type="text" name="name" onChange={this.handleChange} />
+            <input type="text" name="name" />
           </label>
         </p>
         <p>
           <label>
             Your email:
             <br />
-            <input type="email" name="email" onChange={this.handleChange} />
+            <input type="email" name="email" />
           </label>
         </p>
         <p>
           <label>
             Message:
             <br />
-            <textarea name="message" onChange={this.handleChange} />
+            <textarea name="message" />
           </label>
         </p>
         <p>
