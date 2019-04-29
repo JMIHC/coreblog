@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const Success = styled.div`
   max-width: 320px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 `
 
