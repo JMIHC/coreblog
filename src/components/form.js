@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Form extends Component {
   render () {
     return (
-      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <form name="contact" action="./success" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
         <input type="hidden" name="form-name" value="contact" />
         <p hidden>
@@ -33,7 +33,9 @@ export default class Form extends Component {
           </label>
         </p>
         <p>
-          <button type="submit">Send</button>
+          <button type="submit" value="send message">
+            Send
+          </button>
         </p>
       </form>
     )
