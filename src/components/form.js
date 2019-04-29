@@ -22,7 +22,7 @@ export default class Form extends Component {
           <label>
             Your email:
             <br />
-            <input type="email" name="email" />
+            <input type="text" name="email" />
           </label>
         </p>
         <p>
