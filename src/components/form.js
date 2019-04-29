@@ -3,20 +3,20 @@ import React, { Component } from 'react'
 export default class Form extends Component {
   render () {
     return (
-      <form name="contact" netlify netlify-honeypot="bot-field">
+      <form name="contact" name="contact" method="POST" netlify netlify-honeypot="bot-field">
         <p>
           <label>
-            Name <input type="text" name="name" />
+            Name: <input type="text" name="name" />
           </label>
         </p>
         <p>
           <label>
-            Email <input type="email" name="email" />
+            Email: <input type="email" name="email" />
           </label>
         </p>
         <p>
           <label>
-            Message <input type="text" name="content" />
+            Message: <textarea name="message" />
           </label>
         </p>
         <p>
