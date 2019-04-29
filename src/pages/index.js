@@ -21,7 +21,7 @@ const IndexPage = () => (
       <p>
         This is where we'll find what it means to be a man in the universal masculine. I think this end of the gender spectrum has
         largely neglected its purpose, forgotten its place in the world and perverted its noble reality. There are so many
-        questions to think on. I am building this space for you and I go deep and explore the terrain of what makes a man.
+        questions to think on. I am building this space for you and I to go deep and explore the terrain of what makes a man.
       </p>
       <p>
         For now there'll be weekly blog here while I build the infrastructure to make this a platform for us. Feel free to contact
