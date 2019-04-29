@@ -35,7 +35,7 @@ const Layout = ({ children }) => (
         />
         <div
           style={{
-            width: 320,
+            maxWidth: 600,
             display: 'flex',
             flexDirection: 'column',
             marginRight: 'auto',

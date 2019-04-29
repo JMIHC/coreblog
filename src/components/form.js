@@ -11,7 +11,7 @@ export default class Form extends Component {
         </p>
         <p>
           <label>
-            Email: <input type="email" name="email" />
+            Email*: <input type="email" name="email" />
           </label>
         </p>
         <p>
@@ -22,6 +22,7 @@ export default class Form extends Component {
         <p>
           <button type="submit">Send</button>
         </p>
+        <p>*Your email address will not be sold or used in any form outside of this website.</p>
       </form>
     )
   }
