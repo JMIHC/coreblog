@@ -35,7 +35,7 @@ const StepDad = props => (
         Along the way, I’ve found that the sooner I recover lost pieces of myself the more I can return with boon in hand and use
         it to help lift up the family. These pieces are the missing fragments of self that would prevent me from being whole.
         Wrapped hidden in thoughts that would seek to anesthetize me from my purpose and drive me to slumber in a malaise of my
-        own making. I tried so hard to know my own father, therefore I can not possibly be enough for this child. Or at any minute
+        own making. I tried so hard to know my own father, therefore I cannot possibly be enough for this child. Or at any minute
         now, my wife will see me for the emptiness I feel and toss me out before the contagion spreads.
       </p>
       <p>
