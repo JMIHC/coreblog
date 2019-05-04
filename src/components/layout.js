@@ -8,13 +8,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import SEO from './seo'
-import styled from 'styled-components'
-
-const Header = styled.h1`
-  display: flex;
-  justify-content: center;
-  margin: 5px;
-`
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -42,8 +35,8 @@ const Layout = ({ children }) => (
             marginLeft: 'auto',
           }}
         >
-          <Header>What I learned after my father died</Header>
           {children}
+          <br />
           <footer>Built by the Cosmic Fisherman ©{new Date().getFullYear()}</footer>
         </div>
       </>

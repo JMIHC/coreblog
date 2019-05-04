@@ -11,7 +11,7 @@ const Success = styled.div`
 
 export default () => (
   <Success>
-    <h2>You have sent me a message!</h2>
+    <h2>Thank you for your message.</h2>
     <Link to="/">Go back</Link>
   </Success>
 )
