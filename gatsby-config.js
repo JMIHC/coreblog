@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `What I learned after my father died`,
-    description: `A blog about being a man today.`,
+    description: `A blog exploring what it means to be a man.`,
     author: `@johnmcornyn`,
   },
   plugins: [
