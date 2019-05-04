@@ -28,14 +28,23 @@ const StepDad = props => (
       <p>
         I've found the essence of being a stepdad is the act of falling in love with the family you’ve stepped into. Do not think
         for a moment that you have arrived to save anyone, or that you are granted rights to fix a perilous past preceding your
-        arrival. Do think that you are arriving at the door of a new reality and walking through it. And so transformed by this
-        stepping into love, you will feel that you have been saved.
+        arrival. Do think that you are arriving at the door of a new reality and walking through it, transformed by this stepping
+        into love, feel that you have been saved.
       </p>
       <p>
-        Along the way, I’ve found that the sooner I recover those lost pieces of myself the more I can return with boon in hand
-        and use it to help lift up the family. The lost pieces are missing fragments of self that prevent me from being whole.
-        It's the earthbound thought that keeps me defeated in the dirt. Luckily I've had immense support around me keeping my chin
-        up.
+        Along the way, I’ve found that the sooner I recover lost pieces of myself the more I can return with boon in hand and use
+        it to help lift up the family. These pieces are the missing fragments of self that would prevent me from being whole.
+        Wrapped hidden in thoughts that would seek to anesthetize me from my purpose and drive me to slumber in a malaise of my
+        own making. I tried so hard to know my own father, therefore I can not possibly be enough for this child. Or at any minute
+        now, my wife will see me for the emptiness I feel and toss me out before the contagion spreads.
+      </p>
+      <p>
+        For this I had to stop and breathe into the dark moments and become present. It was critical to become centered in my own
+        power independently. Do my own work to find the origin of such thoughts and integrate the missing affirmation back into my
+        reality. Doing so for that memory makes the present moment whole. What happens after this work is an expansion of reality.
+        Like if you walk around bent over watching the ground and finally you look up, open your chest with shoulders back and
+        yell with vitality. Yell I am enough or yell whatever affirmation expels the darkness from your soul. And if you are
+        lucky, you have friends that mirror you and say yes, you are enough. Those friends are precious.
       </p>
       <p>
         If you've read the Giving Tree, it's about a tree that so loves the child that it gives itself away. Having given it all,
