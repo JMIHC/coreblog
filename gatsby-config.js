@@ -8,6 +8,12 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-eslint`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-141055142-1',
+      },
+    },
+    {
       resolve: `gatsby-plugin-styled-components`,
       options: {},
     },
