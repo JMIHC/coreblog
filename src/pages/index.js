@@ -27,6 +27,7 @@ const IndexPage = () => (
     </Content>
     <h3>Posts</h3>
     <Link to="/on-being-a-stepdad">On Being a Stepdad</Link>
+    <br />
     <Link to="/a-dream">A Dream</Link>
     <br />
     <Form />
