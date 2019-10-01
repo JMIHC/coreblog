@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `What I learned after my father died`,
+    title: `What I Learned After My Father Died`,
     description: `A platform exploring what it means to be man.`,
     author: `@johnmcornyn`,
   },

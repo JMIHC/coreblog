@@ -65,7 +65,9 @@ const StepDad = props => (
       </p>
     </Content>
     <br />
-    <Link to="/">Go back</Link>
+    <Link style={{ fontWeight: 'bold' }} to="/">
+      Go back
+    </Link>
   </Layout>
 )
 

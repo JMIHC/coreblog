@@ -4,9 +4,8 @@ export default class Form extends Component {
   render () {
     return (
       <div>
-        <p>Feel free to subscribe for updates and get in touch.</p>
+        <p>Feel free to get in touch.</p>
         <form name="contact" action="./success" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-          {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
           <input type="hidden" name="form-name" value="contact" />
           <p hidden>
             <label>
