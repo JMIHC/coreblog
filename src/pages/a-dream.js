@@ -17,10 +17,10 @@ const Vigilance = props => (
         took the bottle and then thought wait, where is the cell phone? How am I going to do this without it? And I woke up.
       </p>
       <p>
-        One of parts of the dream that haunts me now is the blank look on his face. Then the dark and dank cave we were in and the
-        way we were expelling our life force. We all knew what was happening, and part of the code among us is if you cover for me
-        then I’ll cover for you. We don’t talk about this. You don’t break the circle. Don’t throw off the mantle of misogyny,
-        it’s all we’ve got.
+        One of the parts of the dream that haunts me now is the blank look on his face. Then the dark and dank cave we were in and
+        the way we were expelling our life force. We all knew what was happening, and part of the code among us is if you cover
+        for me then I’ll cover for you. We don’t talk about this. You don’t break the circle. Don’t throw off the mantle of
+        misogyny, it’s all we’ve got.
       </p>
       <p>
         There is a lot to unpack here when it comes to how pornography dented my brain. How I found that it trains my body to use
@@ -32,9 +32,9 @@ const Vigilance = props => (
       <p>
         Let's consider then, in the midst of hyper-sexualized everything, what to do. So far, I've found that elminating that
         visual stimulus is the first step. But yes, that's tricky. Because it's baked into the brain routines, to varying degrees
-        depending on long you've been a symbiotic host to this particular affliction. For me it didn't work to simply stop, there
-        was always a route back. I had to replace it. That was a lot of gaming. And that has its own detriments when carried to
-        excess.
+        depending on how long you've been a symbiotic host to this particular affliction. For me it didn't work to simply stop,
+        there was always a route back. I had to replace it. That was a lot of gaming. And that has its own detriments when carried
+        to excess.
       </p>
       <p>
         I found it's ultimately about connecting with others in genuine ways. That takes the edge off those grinding gears
