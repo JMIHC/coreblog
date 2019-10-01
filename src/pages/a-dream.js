@@ -39,7 +39,7 @@ const Vigilance = props => (
       <p>
         I found it's ultimately about connecting with others in genuine ways. That takes the edge off those grinding gears
         struggling to adapt to healthier ways of thinking and being. It's also about being vigilant and slowly reclaiming your own
-        body and its creative life force. It is your horse after all, and a far ride to endure if your soul is to complete it's
+        body and its creative life force. It is your horse after all, and a far ride to endure if your soul is to complete its
         purpose on this earth.
       </p>
     </Content>
