@@ -4,6 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Content } from '../elements/styles'
+import SignUp from '../components/SignUp'
 
 const Vigilance = props => (
   <Layout>
@@ -43,6 +44,8 @@ const Vigilance = props => (
         purpose on this earth.
       </p>
     </Content>
+    <br />
+    <SignUp />
     <br />
     <Link style={{ fontWeight: 'bold' }} to="/">
       Go back
