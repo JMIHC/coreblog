@@ -8,6 +8,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import SEO from './seo'
+import '../elements/style.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
