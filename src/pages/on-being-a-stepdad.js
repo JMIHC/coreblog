@@ -5,6 +5,7 @@ import Img from 'gatsby-image'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Content } from '../elements/styles'
+import SignUp from '../components/SignUp'
 
 const StepDad = props => (
   <Layout>
@@ -64,6 +65,8 @@ const StepDad = props => (
         hesitate! Leap into love, you will be transformed.
       </p>
     </Content>
+    <br />
+      <SignUp />
     <br />
     <Link style={{ fontWeight: 'bold' }} to="/">
       Go back
