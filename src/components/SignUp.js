@@ -14,8 +14,9 @@ const SubscribeSchema = Yup.object().shape({
 
 const PostSubmissionMessage = () => {
   return (
-    <div>
-      <p>Thanks for subscribing! I just sent you a confirmation email. Be sure to check your inbox. :-)</p>
+    <div style={{ width: 320 }}>
+      <p>Thanks for subscribing! I just sent you a confirmation email.</p>
+      <p>Be sure to check your inbox. :-)</p>
     </div>
   )
 }
@@ -136,7 +137,7 @@ export default class SignUp extends React.Component {
                     </button>
                   </Form>
                 )}
-                {submitted && <PostSubmissionMessage />}
+                {submitted && !isSubmitting && <PostSubmissionMessage />}
                 { errorMessage && <div>{errorMessage}</div> }
               </>
             )}

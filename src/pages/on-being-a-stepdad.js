@@ -66,10 +66,10 @@ const StepDad = props => (
       </p>
     </Content>
     <br />
-      <SignUp />
+    <SignUp />
     <br />
     <Link style={{ fontWeight: 'bold' }} to="/">
-      Go back
+      Home
     </Link>
   </Layout>
 )

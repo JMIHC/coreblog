@@ -48,7 +48,7 @@ const Vigilance = props => (
     <SignUp />
     <br />
     <Link style={{ fontWeight: 'bold' }} to="/">
-      Go back
+      Home
     </Link>
   </Layout>
 )
